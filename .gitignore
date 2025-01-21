@@ -1,0 +1,13 @@
+# Ignore environment files
+backend/.env
+frontend/.env
+
+# Ignore system and IDE-specific files
+.DS_Store
+node_modules/
+dist/
+build/
+
+# Ignore database files
+backend/*.db
+backend/*.sqlite
